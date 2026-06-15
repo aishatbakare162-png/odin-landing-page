@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+</head>
+<style>
+    body {
+        background-color: rgb(226, 43, 186);
+    }
+    .content {
+        height: 250px;
+        background-color:plum;
+        font-family: cursive;
+    }
+    button {
+        background-color: pink;
+        border-radius: 5px;
+        height: 20px;
+        border: 1px solid white;
+        color: red;
+    }
+    
+    .heading {
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        gap: 4px;
+        background-color: magenta;
+        color: white;
+    }
+ 
+    .sub-head {
+        list-style: none;
+        display: flex;
+        margin-top: -20px;
+        justify-content: space-between;
+        gap: 40px;
+        color: black;
+        height: 20px;
+    }
+    li:hover {
+        transition: ease-in 1.s;
+        color: skyblue;
+     }
+    .lg {
+        margin-top: -20px;
+    }
+    .con {
+        display: flex;
+        justify-content: space-around;
+        flex-grow: 1 ;
+        flex-shrink: 2;
+        flex-wrap: wrap;
+    }
+    .box {
+        justify-content: center;
+        height: 150px;
+    }
+    .ndcont {
+        background-color: white;
+        height: 190px;
+        background-color: palevioletred;
+        margin-top: -20px;
+        margin-bottom: 5px;
+    }
+    .container {
+        display: flex;
+        justify-content: space-around;
+        height:px;
+    }
+    .item {
+        width: 100px;
+        height: 100px;
+        border:  solid;
+        border-radius: 5px;
+    }
+    .text {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        font-family: fantasy;
+    }
+    .info {
+        text-align: center;
+    }
+    .quote {
+        background-color: #e5e7eb;
+        height: 300px;
+        text-align: center;
+        background-color: magenta;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        height:50px;
+        background-color: purple;
+        align-content: center;
+        padding-top: 30px;
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        width: 400px;
+        margin-left: 150px;
+        flex-grow: 1 1 auto;
+    }
+    button:hover {
+        transition: ease-out 1s;
+        background-color: brown;
+    }
+</style>
+<body>
+    <div class="content">
+        <div class="heading">
+             <div class="lg">
+             <div style="color: black;"><h1>Ha</h1></div>
+            </div>
+            <div class="sub-head">
+                <li><h5>HOME</h5></li>
+                <li><h5>ABOUT</h4></li>
+                <li><h5>IMAGES</h5></li>
+            </div>
+        </div>
+        <div class="con">
+            <div class="sub-con">
+                <div style="font-weight:bolder;">HEESHA'S <br>ACCESSORIES</div><br>
+                <div>Get your affordable accessories  <br> Cutesy and girly <br> Asthetically pleasing</div><br>
+                <button >Access More</button>
+            </div>
+         <div class="box">
+            <div><img src="img/coverface.jpg.jpg" height="146px"></div>
+         </div>
+        </div>
+    </div>
+    <div class="ndcont">
+        <div class="info" style="font-weight: bolder;"><h3>PRODUCT SAMPLES</h3></div>
+        <div class="container">
+            <div class="item" ><img src="img/bracelets.jpeg" height="100px" width="100px"></div>
+            <div class="item"><img src="img/necklace.jpeg" height="100px"></div>
+            <div class="item"><img src="img/pinkbracelet.jpeg" height="100px" width="100px"></div>
+            <div class="item"><img src="img/pocketchain.jpeg" height="100px" width="100px"></div>
+        </div>
+    
+        <div class="text">
+            <div class="txt">steel bracelets</div>
+            <div class="txt ">cute necklace</div>
+            <div class="txt ">pinkbracelet</div>
+            <div class="txt">pocketchain</div>
+        </div>
+    </div>
+    <div class="quote">
+        <div><h2> Purchase your favourite accessories from your trusted vendor</h2><br><h3>Trust us to deliver efficiently</h3></div>
+        <div><h3>ORDER for PICK-UPS and also DELIVERIES</h3></div>
+        <div><h3>HEESHA'S ACCESSORIES at your service</h3></div>
+    </div>
+    <div class="footer">
+         <div class="1st f">
+            <div class="big">12% discount for 1st timers</div>
+            <div class="small">Cheap rate</div>
+         </div>
+         <button class="lyt">ORDER NOW</button>
+         </div>
+</body>
+</html>
